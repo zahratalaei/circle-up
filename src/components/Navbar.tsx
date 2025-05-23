@@ -24,7 +24,7 @@ const Navbar = (props: Props) => {
             </Link>
         </div>
         {/* center */}
-        <div className='hidden mx-10 md:flex w-[50%] text-sm items-center justify-between'>
+        <div className='hidden mx-5 md:flex w-[50%] text-sm items-center justify-between xl:mx-10'>
             {/* list */}
             <div className='flex gap-6 text-gray-600'>
                 <Link href="/" className='flex gap-2 items-center justify-center'>
@@ -41,7 +41,7 @@ const Navbar = (props: Props) => {
                 </Link>
             </div>
             {/* search bar */}
-            <div className='hidden xl:flex p-2 bg-yellow-500 items-center rounded-xl'>
+            <div className='hidden xl:flex p-2 bg-muted items-center rounded-xl'>
                 <input type="text" placeholder='Search...' className='bg-transparent outline-none' />
                 <Image src='/search.png' width={14} height={14} alt='search'className=''/>
             </div>
