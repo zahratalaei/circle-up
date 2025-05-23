@@ -20,7 +20,7 @@ const Navbar = (props: Props) => {
                     className="h-20 w-20 object-cover rounded-full"
                     alt="CircleUp logo"
                 />
-                <span className='hidden xl:inline-block font-serif text-primary'>CircleUp</span>
+                {/* <span className='hidden xl:inline-block font-serif text-primary'>CircleUp</span> */}
             </Link>
         </div>
         {/* center */}
