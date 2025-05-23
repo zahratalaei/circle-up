@@ -20,7 +20,7 @@ const Navbar = (props: Props) => {
                     className="h-20 w-20 object-cover rounded-full"
                     alt="CircleUp logo"
                 />
-                {/* <span className='font-serif text-primary'>CircleUp</span> */}
+                <span className='font-serif text-primary'>CircleUp</span>
             </Link>
         </div>
         {/* center */}
@@ -41,7 +41,7 @@ const Navbar = (props: Props) => {
                 </Link>
             </div>
             {/* search bar */}
-            <div className='hidden xl:flex p-2 bg-muted items-center rounded-xl'>
+            <div className='hidden xl:flex p-2 bg-yellow-500 items-center rounded-xl'>
                 <input type="text" placeholder='Search...' className='bg-transparent outline-none' />
                 <Image src='/search.png' width={14} height={14} alt='search'className=''/>
             </div>
