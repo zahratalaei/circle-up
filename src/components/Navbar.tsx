@@ -20,11 +20,11 @@ const Navbar = (props: Props) => {
                     className="h-20 w-20 object-cover rounded-full"
                     alt="CircleUp logo"
                 />
-                <span className='font-serif text-primary'>CircleUp</span>
+                <span className='hidden xl:inline-block font-serif text-primary'>CircleUp</span>
             </Link>
         </div>
         {/* center */}
-        <div className='hidden mx-5 md:flex w-[50%] text-sm items-center justify-between xl:mx-10'>
+        <div className='hidden md:flex w-[50%] text-sm items-center justify-between xl:justify-end gap-1 '>
             {/* list */}
             <div className='flex gap-6 text-gray-600'>
                 <Link href="/" className='flex gap-2 items-center justify-center'>
