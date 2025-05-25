@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CircleUp UI Only
 
-## Getting Started
+> 🔥 A standalone Next.js 15 frontend for CircleUp — a social media dashboard with a polished, responsive UI.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- **Next.js 15** with Turbopack for fast local HMR  
+- **CSS-first Tailwind CSS v4** theming via `@theme inline` and CSS variables  
+- **Light & dark mode** support out of the box  
+- **Responsive navbar** & mobile menu (Headless UI)  
+- **SVG icons** via Lucide React for crisp, theme-aware icons  
+- **Authentication** with Clerk (client-only keys)  
+- Search bar, feed, profile pages, and more  
+- Ready for static export or SSR deployment  
+
+---
+
+## 🧰 Tech Stack
+
+- **Next.js 15.3.2** (App Router) with Turbopack  
+- **React 19.0.0**  
+- **TypeScript 5**  
+- **Tailwind CSS v4** (CSS-first) + `@tailwindcss/postcss`  
+- **Lucide React** for icon components  
+- **Clerk** for authentication and user management (`@clerk/nextjs`)  
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone & install
 
 ```bash
-npm run dev
+git clone https://github.com/your-username/circle-up-only-ui.git
+cd circle-up-only-ui
+npm install
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+yarn install
